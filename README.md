@@ -38,7 +38,7 @@ split = Split(
 split = Split(
     split_side=SplitSide.RIGHT,
     split_type=SplitType.UART,
-    data_pin=board.GP0,
+    data_pin=board.GP0,     # This order of pins raises "Invalid pins" error on stdout ?
     data_pin2=board.GP1,
     debug_enabled=True,
 )
