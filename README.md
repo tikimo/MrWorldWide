@@ -13,7 +13,7 @@ Key 47 and 48 are treated as one key, idk why but this is assumed because of len
 ### UART communication
 I cant make the two sides communicate with each other, idk why. I've tried multiple different setups. Power does go through, but RX/TX is not working.
 
-In the wiring, I have TX/RX on GP0 and GP1 (Pi Pico W). 
+In the wiring, I have TX/RX on GP0 and GP1 (Pi Pico W). I also tried with and without 4.7k pullup resistors.
 
 Also, devices are named `MRWWL` and `MRWWR`.
 
